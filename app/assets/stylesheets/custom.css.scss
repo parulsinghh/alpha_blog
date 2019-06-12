@@ -1,2 +1,52 @@
+$navbar-default-bg: #5DBCD2;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo {
+  float: left;
+  color: #fff;
+  font-size: 1.7em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+// #logo:hover {
+//   color: #fff;
+//   text-decoration: none;
+// }
+
+.center {
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: asset-url('notebook.jpg');
+  background-size: cover;
+  height: 550px;
+}
+
+.jumbotron h1 {
+  margin-bottom: 30px;
+  margin-top: 100px;
+}
+
+.btn-lg {
+  font-size: 1.7em;
+}
+
+footer {
+  margin-top: 40px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
