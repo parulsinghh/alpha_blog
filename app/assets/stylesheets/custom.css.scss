@@ -35,11 +35,22 @@ $navbar-default-bg: #5DBCD2;
   font-size: 1.7em;
 }
 
-footer {
-  margin-top: 40px;
-  padding-top: 5px;
+.article-actions {
   border-top: 1px solid #eaeaea;
-  color: #777;
+  padding-top: 10px;
+}
+
+.description {
+  margin-top: 0px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #eaeaea;
+  height: 60px;
+  line-height: 60px;
 }
 
 footer small {
