@@ -44,13 +44,23 @@ $navbar-default-bg: #5DBCD2;
   margin-top: 0px;
 }
 
+.article-title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.article-body {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 footer {
-  position: absolute;
+  position: fixed;
+  right: 0;
   bottom: 0;
-  width: 100%;
-  border-top: 1px solid #eaeaea;
-  height: 60px;
-  line-height: 60px;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
 }
 
 footer small {
